@@ -1,0 +1,115 @@
+/* To be able to use the font */
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
+
+/* root is the scope */
+:root {
+  --line-border-fill: #3498db;
+  --line-border-empty: #e0e0e0;
+}
+/* Universal selector to apply to all */
+/*  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f6f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* To make sure the content is centered verticall */
+  height: 100vh;
+  /* to avoid automatically having  scroll bars*/
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  /* This means the number move when we change the page's size? */
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+
+/* 'before' so the line is in the background? */
+.progress-container::before {
+  /* Careful not to forget content */
+  content: "";
+  background-color: var(--line-border-empty);
+  /* Meaning this will always follow the number */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* So we get the middle of the line on the middle of the thing */
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+}
+
+.progress {
+  background-color: var(--line-border-fill);
+  /* Meaning this will always follow the number */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* So we get the middle of the line on the middle of the thing */
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.circle {
+  background-color: #fff;
+  color: #999;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--line-border-empty);
+  transition: 0.4s ease;
+}
+
+.circle.active {
+  border-color: var(--line-border-fill);
+}
+
+.btn {
+  background-color: var(--line-border-fill);
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+
+/* This gives some movement & reactivity to the button design */
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+/* not allowed gives the stop sign, allows the user not to loose time trying to click ! */
+.btn:disabled {
+  background-color: var(--line-border-empty);
+  cursor: not-allowed;
+}
