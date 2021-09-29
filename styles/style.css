@@ -1,18 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900");
-html, body {
-  height: 100%;
-}
 
 body {
-  background: beige;
+  background: #040084;
   font-family: Alegreya Sans, sans-serif;
+  
+}
+
+
+
+.progress-container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 nav {
-  display: block;
-  position: fixed;
-  width: 500px;
+
+  /* To make sure the content is centered verticall */
   height: 500px;
+  width: 500px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -31,9 +39,13 @@ nav.open {
 }
 
 nav.top-right {
-  top: -140px;
-  right: -140px;
+
+  /* To make sure the content is centered verticall */
+  height: 500px;
+  width: 500px;
+
 }
+
 
 .disc {
   position: absolute;
