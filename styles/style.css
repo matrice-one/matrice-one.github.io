@@ -108,8 +108,8 @@ nav.top-right {
 }
 
 .open .l1.toggle {
-  -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
-          transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+          transform: scale3d(0.9, 0.9, 0.9);
 }
 
 .l2 {
