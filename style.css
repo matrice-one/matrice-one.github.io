@@ -230,7 +230,7 @@ button:hover {
 .wrapper-5 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 800px;
   padding-right: 25px;
   padding-left: 25px;
   grid-gap: 10px;
@@ -239,7 +239,7 @@ button:hover {
 .wrapper-6 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 800px;
   padding-right: 25px;
   padding-left: 25px;
   grid-gap: 10px;
