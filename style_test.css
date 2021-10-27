@@ -9,9 +9,37 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: (25, 28, 31);
+  color: #ee7302;
 }
 
+h1 {
+  font-size: 40px;
+  color: #ee7302;
+}
+
+h2 {
+  font-size: 30px;
+  color: #ee7302;
+}
+
+h3 {
+  font-size: 24px;
+  color: #ee7302;
+}
+
+h4 {
+  font-size: 20px;
+  color: #ee7302;
+}
+ul {
+  font-size: 18px;
+  color: #ee7302;
+}
+
+p {
+  color: #ee7302;
+  font-size: 18px;
+}
 /* DEFINING THE HEADERS */
 /* Style the header with a grey background and some padding */
 .header {
@@ -91,7 +119,7 @@ body {
 .wrapper-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 400px;
   padding-right: 25px;
   padding-left: 25px;
   grid-gap: 10px;
@@ -100,7 +128,7 @@ body {
 .wrapper-4 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 800px;
   padding-right: 25px;
   padding-left: 25px;
   grid-gap: 10px;
@@ -155,18 +183,17 @@ button:hover {
 }
 
 .box-5 {
-  background-color: limegreen;
 }
 
 .box-6 {
   background-color: darkorchid;
+  text-align: left;
 }
 
 .box-7 {
-  background-color: darkorchid;
-  background-color: beige;
   margin: auto;
-  width: 60%;
+  height: 80%;
+  width: 80%;
   border: 3px solid #73ad21;
   display: grid;
   grid-template-columns: 1fr 1fr;
