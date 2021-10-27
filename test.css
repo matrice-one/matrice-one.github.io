@@ -7,3 +7,23 @@
   margin-right: -15 px;
   margin-left: -15 px;
 }
+
+.process-wrapp,
+.process-wrapp li,
+.process-wrapp li > .pro-step {
+  position: relative;
+  z-index: 1;
+}
+
+.process-wrapp {
+  overflow: hidden;
+  display: table;
+  table-layout: fixed;
+  margin: 0 15;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
