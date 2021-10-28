@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+        />
+        <meta charset="UTF-8" />
+        <title>Contact Us</title>
+
+        <link
+            href="https://unpkg.com/cirrus-ui"
+            type="text/css"
+            rel="stylesheet"
+        />
+
+
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+      
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="hero fullscreen">
+            <div class="hero-body">
+                <div style="margin: auto">
+                    <form class="frame p-0" action="https://formspree.io/f/xyylargr"
+                    method="POST">
+                        <div class="frame__body p-0">
+                            <div class="row p-0 level fill-height">
+                                <div class="col">
+                                    <div class="space xlarge"></div>
+                                    <div class="padded">
+                                        <h1 class="u-text-center u-font-alt">Nous Ecrire</h1>
+                                        <div class="divider"></div>
+                                        <p class="u-text-center">Pour tout renseignement, pour un devis, pour une collaboration ou pour tout autre demande, nous nous engageons à une réponse dans les deux jours ouvrables.</p>
+                                        <div class="divider"></div>
+
+                                        <!-- Nom et prénom -->
+                                        <div class="form-group">
+                                            <label class="form-group-label">
+                                                <span class="icon">
+                                                    <i class="fa-wrapper far fa-user"></i>
+                                                </span>
+                                            </label>
+                                            <input type="text" name="name" id="full-name" placeholder="Nom et prénom" required="" />
+                                        </div>
+
+                                        <!-- adresse mail -->
+
+                                        <div class="form-group">
+                                            <label class="form-group-label">
+                                                <span class="icon">
+                                                    <i class="fa fa-sitemap"></i>
+                                                </span>
+                                            </label>
+                                            <input type="email" name="_replyto" id="email-address" placeholder="Votre adresse mail ou celle de votre organisation" required="" />
+                                        </div>
+
+                                                                                <!-- Nom org (si applicable) -->
+
+                                                                                <div class="form-group">
+                                                                                    <label class="form-group-label">
+                                                                                        <span class="icon">
+                                                                                            <i class="fa-wrapper far fa-envelope"></i>
+                                                                                        </span>
+                                                                                    </label>
+                                                                                    <input type="text" name="organisation" id="name-organisation" placeholder="Nom de l'organisation (si applicable)" required=""/>
+                                                                                </div>
+
+                                        
+
+                                        <textarea placeholder="Votre message"></textarea>
+
+                                        <div class="space"></div>
+
+                                        <div class="btn-group u-pull-right">
+                                            <button class="btn-info">Et on y va... Envoyer!</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="space xlarge"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
