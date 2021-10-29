@@ -143,7 +143,7 @@ p {
 }
 
 .box-1 {
-  background-image: url(images/mount_everest_map.jpeg);
+  background-image: url(assets/images/mount_everest_map.jpeg);
 }
 
 h2 {
@@ -217,20 +217,61 @@ button:hover {
 }
 
 .box-8 {
-  background-color: peru;
 }
 
 .box-9 {
   background-color: brown;
 }
 
-.wrapper-5 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 800px;
+.item {
+  color: white;
+  text-align: center;
+  font-size: 30px;
   padding-right: 25px;
   padding-left: 25px;
-  grid-gap: 10px;
+}
+
+.box-81 {
+  border: 3px solid #73ad21;
+}
+
+.box-82 {
+  border: 3px solid #73ad21;
+}
+
+.box-83 {
+  border: 3px solid #73ad21;
+}
+
+.box-84 {
+  border: 3px solid #73ad21;
+}
+
+.box-85 {
+  border: 3px solid #73ad21;
+}
+
+.box.box-8 {
+  display: grid;
+  padding: 0.5rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 0.5rem;
+
+  grid-column: 1/ -1;
+}
+
+.item {
+  padding: 6rem;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.2s;
 }
 
 .wrapper-6 {
@@ -243,13 +284,9 @@ button:hover {
 }
 
 body {
-  background: #c9d6ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #e2e2e2,
-    #c9d6ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #e2e2e2, #c9d6ff) no-repeat fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c9d6ff;
+  background: -webkit-linear-gradient(to bottom, #e2e2e2, #c9d6ff);
+  background: linear-gradient(to bottom, #e2e2e2, #c9d6ff) no-repeat fixed;
 }
 
 .bg {
@@ -260,6 +297,9 @@ body {
 
   padding-bottom: 100%;
 }
+
+/*
+
 
 .frame {
   background-color: #fff;
@@ -296,4 +336,4 @@ li {
 
 .btn-info {
   margin-left: 1rem;
-}
+} */
