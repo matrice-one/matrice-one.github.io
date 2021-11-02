@@ -1,8 +1,22 @@
+@import url("https://use.typekit.net/dcr0tfb.css");
+/* DEFINING THE FIRST GLOBAL FONT */
+
+html,
+body {
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #ee7302;
+}
+
 main {
   display: flex;
   flex-flow: row wrap;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
 }
 
 section {
