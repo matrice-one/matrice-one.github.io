@@ -25,73 +25,144 @@ section {
 }
 
 #block1 {
-  background-color: red;
   flex-basis: 100%;
 }
 
 #block2 {
-  background-color: blue;
   flex-basis: 100%;
 }
 
 #block31 {
-  background-color: yellow;
   flex-basis: 33.333%;
 }
 
 #block32 {
-  background-color: lavender;
   flex-basis: 33.333%;
 }
 
 #block33 {
-  background-color: lightcoral;
   flex-basis: 33.333%;
 }
 
+#block4_space {
+  flex-basis: 100%;
+}
 #block4 {
-  background-color: green;
   flex-basis: 50%;
 }
 
 #block5 {
-  background-color: grey;
   flex-basis: 50%;
 }
 
+#block6_titre {
+  flex-basis: 100%;
+}
+
+#block6_alternative {
+  flex-basis: 100%;
+}
+
 #block6 {
-  background-color: forestgreen;
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#block61 {
   flex-basis: 25%;
+  flex: 1 auto;
+  max-width: 40vh;
+}
+
+#block62 {
+  flex-basis: 25%;
+  flex: 1 auto;
+  max-width: 40vh;
+}
+
+#block63 {
+  flex-basis: 25%;
+  flex: 1 auto;
+  max-width: 40vh;
+}
+
+#block64 {
+  flex-basis: 25%;
+  flex: 1 auto;
+  max-width: 40vh;
 }
 
 #block7 {
-  background-color: lightcoral;
   flex-basis: 25%;
 }
 
 #block8 {
-  background-color: yellowgreen;
   flex-basis: 25%;
 }
 
 #block9 {
-  background-color: grey;
   flex-basis: 25%;
 }
 
-#block10 {
-  background-color: firebrick;
+#block10_titre {
   flex-basis: 100%;
+}
+
+#block10 {
+  flex-basis: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #block11 {
-  background-color: aqua;
   flex-basis: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-#block12 {
-  background-color: olive;
+/* #block12 {
   flex-basis: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+#block12 {
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#block121 {
+  flex-basis: 33.3333%;
+  flex: 1 auto;
+  min-width: 20vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+#block122 {
+  flex-basis: 33.3333%;
+  flex: 1 auto;
+  min-width: 20vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+#block123 {
+  flex-basis: 33.3333%;
+  flex: 1 auto;
+  min-width: 20vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
 }
 
 @media (max-width: 800px) {
