@@ -26,6 +26,10 @@ body {
   box-sizing: border-box;
 }
 
+i {
+  padding-right: 1.5vh;
+}
+
 h1 {
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 800;
