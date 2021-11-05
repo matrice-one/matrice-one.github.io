@@ -1,0 +1,12 @@
+.container_value_prop {
+  display: grid;
+  grid-auto-rows: minmax(3em, auto);
+  grid-template-rows: 2em 6em;
+  max-height: 100;
+}
+.title_val {
+  grid-row: 1;
+}
+.text_val {
+  grid-row: 2;
+}
