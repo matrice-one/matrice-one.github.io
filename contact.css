@@ -31,12 +31,13 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #ee7302;
+  background: rgb(255, 101, 132);
   color: white;
   font-weight: 700;
   font-size: 1.2rem;
   border-radius: 5px;
   margin-top: 1.3em;
+  border: none;
 }
 
 .contact {
@@ -45,13 +46,13 @@ input[type="submit"] {
 }
 
 form {
-  background-color: #ffffff;
+  background-color: rgb(57, 55, 77);
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  border-radius: 15px;
   overflow: hidden;
 }
 

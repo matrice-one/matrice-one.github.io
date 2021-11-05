@@ -25,6 +25,10 @@ section {
   min-width: 80px;
 }
 
+#spacing {
+  flex-basis: 100%;
+}
+
 #block1 {
   flex-basis: 100%;
 }
@@ -169,6 +173,9 @@ section {
   margin-right: 10%;
 }
 
+#block11.li {
+}
+
 /* #block12 {
   flex-basis: 100%;
   margin-left: 10%;
@@ -232,6 +239,7 @@ section {
   #block9 {
     flex-basis: 50%;
   }
+  #block6,
   #block10 {
     flex-basis: 100%;
   }
