@@ -25,6 +25,12 @@ body {
 * {
   box-sizing: border-box;
 }
+.container_article {
+  width: 100%;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
 
 i {
   padding-right: 1.5vh;
@@ -686,8 +692,8 @@ li {
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:after {
   content: "";
   color: rgb(57, 55, 77);
-  width: 8px;
-  height: 8px;
+  /* width: 8px;
+  height: 8px; */
   background: rgb(57, 55, 77);
   position: absolute;
   bottom: 90px;
@@ -709,8 +715,9 @@ li {
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after {
   content: "";
   color: rgb(57, 55, 77);
-  width: 8px;
-  height: 8px;
+  /* THAT MAKES SOME LITTLE EXTRA DOTS */
+  /* width: 8px;
+  height: 8px; */
   background: rgb(57, 55, 77);
   position: absolute;
   top: 90px;

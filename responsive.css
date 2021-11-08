@@ -29,6 +29,19 @@ section {
   flex-basis: 100%;
 }
 
+#responsive_cols {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#responsive_cols-1 {
+  flex-basis: 50%;
+}
+
+#responsive_cols-2 {
+  flex-basis: 50%;
+}
+
 #block1 {
   flex-basis: 100%;
 }
@@ -71,6 +84,10 @@ section {
   margin: auto;
   padding: 4em 2em 5em 5em;
   max-width: 500px;
+}
+
+.inblock5 p {
+  color: white;
 }
 
 #block5.h3 {
