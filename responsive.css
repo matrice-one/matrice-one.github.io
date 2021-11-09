@@ -30,8 +30,13 @@ section {
 }
 
 #responsive_cols {
+  flex-basis: 100%;
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #responsive_cols-1 {
